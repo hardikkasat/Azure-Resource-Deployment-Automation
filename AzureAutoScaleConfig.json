@@ -1,0 +1,10 @@
+{
+    "metricName": "Percentage CPU",
+    "operator": "GreaterThan",
+    "threshold": 75,
+    "scaleAction": {
+        "direction": "Increase",
+        "value": 1,
+        "cooldown": "PT1H"
+    }
+}

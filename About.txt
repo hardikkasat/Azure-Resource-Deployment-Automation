@@ -1,0 +1,14 @@
+# Azure Resource Deployment Automation
+
+## Overview
+This project automates the deployment of complex Azure environments using Azure PowerShell. It simplifies the creation of Azure resources such as Resource Groups, Virtual Machines (VMs), and Virtual Networks (VNets). Additionally, the script sets up auto-scaling for VMs based on CPU usage and tags resources for cost management and categorization.
+
+## Key Features
+- Automated creation of Resource Groups, Virtual Networks, and Virtual Machines.
+- Auto-scaling of VMs based on metrics (CPU usage).
+- Resource tagging for cost management and resource categorization.
+
+## Prerequisites
+Before running the script, ensure the following prerequisites are met:
+1. **Azure PowerShell Module**: Install the Azure PowerShell module using the following command:
+   Install-Module -Name Az -AllowClobber -Force
